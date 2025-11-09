@@ -21,3 +21,10 @@
     console.log(67 >= 12); //true; 67 is greater than or equal to 12
     console.log(420 != 69); //true; 420 does not equal 69
 }
+
+//Question 3
+{
+    console.log('QUESTION 3:');
+
+    console.log(`5 * 4 = ${5*4}`);
+}
