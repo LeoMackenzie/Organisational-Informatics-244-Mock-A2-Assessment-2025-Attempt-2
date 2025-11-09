@@ -26,7 +26,7 @@
 {
     console.log('QUESTION 3:');
 
-    console.log(`5 * 4 = ${5*4}`);
+    console.log(`5 * 4 = ${5 * 4}`);
 }
 
 //Question 4
@@ -34,7 +34,7 @@
     console.log('QUESTION 4:');
 
     let convertNumbertoString = 33;
-    
+
     console.log(convertNumbertoString.toString());
     console.log(String(convertNumbertoString));
     console.log(convertNumbertoString + '');
@@ -93,7 +93,7 @@
 
     if ((checkNumber === 5) || (checkNumber === 13) || (checkNumber % 3 === 0)) {
         console.log('Number is either 5, or 13, or is divisible by 3');
-    } 
+    }
     else {
         console.log('Number is not 5, 13, or divisible by 3');
     }
@@ -114,10 +114,10 @@
     else if (favouriteSeason === 'AUTUMN') {
         console.log(`The leaves always look nice in ${favouriteSeason}`);
     }
-        else if (favouriteSeason === 'WINTER') {
+    else if (favouriteSeason === 'WINTER') {
         console.log(`${favouriteSeason} is perfect for being cozy indoors`);
     }
-        else if (favouriteSeason === 'SPRING') {
+    else if (favouriteSeason === 'SPRING') {
         console.log(`${favouriteSeason} is the most cinematic looking season`);
     }
     else {
