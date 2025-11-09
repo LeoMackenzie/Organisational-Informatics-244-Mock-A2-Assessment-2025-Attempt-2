@@ -6,9 +6,9 @@
     let myBoolean = true;
     let myNumber = 67;
 
-    console.log(`String: ${myString}`);
-    console.log(`Boolean: ${myBoolean}`);
-    console.log(`Number: ${myNumber}`);
+    console.log(myString);
+    console.log(myBoolean);
+    console.log(myNumber);
 }
 
 //Question 2
