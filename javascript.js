@@ -84,3 +84,14 @@
         j = j + 1;
     }
 }
+
+//Question 8
+{
+    console.log('QUESTION 8:');
+
+    let checkNumber = Number(prompt('Enter a number'));
+
+    if ((checkNumber === 5) || (checkNumber === 13) || (checkNumber % 3 === 0)) {
+        console.log('Number is either 5, or 13, or is divisible by 3');
+    } 
+}
