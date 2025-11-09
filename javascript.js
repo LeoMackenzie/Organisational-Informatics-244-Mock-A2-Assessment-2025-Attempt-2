@@ -28,3 +28,14 @@
 
     console.log(`5 * 4 = ${5*4}`);
 }
+
+//Question 4
+{
+    console.log('QUESTION 4:');
+
+    let convertNumbertoString = 33;
+    
+    console.log(convertNumbertoString.toString());
+    console.log(String(convertNumbertoString));
+    console.log(convertNumbertoString + '');
+}
