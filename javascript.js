@@ -65,3 +65,22 @@
     let num = Number(prompt('Enter a number'));
     isPositive(num);
 }
+
+//Question 7
+{
+    console.log('QUESTION 7:');
+
+    //for loop
+
+    console.log('for loop:');
+    for (let i = 1; i <= 10; i++) {
+        console.log(i);
+    }
+
+    console.log('while loop:');
+    let j = 1;
+    while (j <= 10) {
+        console.log(j);
+        j = j + 1;
+    }
+}
