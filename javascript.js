@@ -106,6 +106,8 @@
     let favouriteSeason = prompt('What is your favourite season', 'Winter').toUpperCase();
 
     //chained if statement 
+    console.log('chained if statement:');
+
     if (favouriteSeason === 'SUMMER') {
         console.log(`${favouriteSeason} is nice and warm`);
     }
@@ -120,5 +122,26 @@
     }
     else {
         console.log(`${favouriteSeason} is not a valid season`);
+    }
+
+    //switch statement
+    console.log('switch statement:')
+
+    switch (favouriteSeason) {
+        default:
+            console.log(`${favouriteSeason} is not a valid season`);
+            break;
+        case 'SUMMER':
+            console.log(`${favouriteSeason} is nice and warm`);
+            break;
+        case 'AUTUMN':
+            console.log(`The leaves always look nice in ${favouriteSeason}`);
+            break;
+        case 'WINTER':
+            console.log(`${favouriteSeason} is perfect for being cozy indoors`);
+            break;
+        case 'SPRING':
+            console.log(`${favouriteSeason} is the most cinematic looking season`);
+            break;
     }
 }
