@@ -94,6 +94,9 @@
     if ((checkNumber === 5) || (checkNumber === 13) || (checkNumber % 3 === 0)) {
         console.log('Number is either 5, or 13, or is divisible by 3');
     } 
+    else {
+        console.log('Number is not 5, 13, or divisible by 3');
+    }
 }
 
 //Question 9
