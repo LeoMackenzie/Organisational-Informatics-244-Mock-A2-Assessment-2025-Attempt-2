@@ -95,3 +95,27 @@
         console.log('Number is either 5, or 13, or is divisible by 3');
     } 
 }
+
+//Question 9
+{
+    console.log('QUESTION 9:');
+
+    let favouriteSeason = prompt('What is your favourite season', 'Winter').toUpperCase();
+
+    //chained if statement 
+    if (favouriteSeason === 'SUMMER') {
+        console.log(`${favouriteSeason} is nice and warm`);
+    }
+    else if (favouriteSeason === 'AUTUMN') {
+        console.log(`The leaves always look nice in ${favouriteSeason}`);
+    }
+        else if (favouriteSeason === 'WINTER') {
+        console.log(`${favouriteSeason} is perfect for being cozy indoors`);
+    }
+        else if (favouriteSeason === 'SPRING') {
+        console.log(`${favouriteSeason} is the most cinematic looking season`);
+    }
+    else {
+        console.log(`${favouriteSeason} is not a valid season`);
+    }
+}
