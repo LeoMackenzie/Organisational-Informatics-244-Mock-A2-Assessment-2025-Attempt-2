@@ -47,3 +47,21 @@
     let myBooleanExpression = !((67 >= 32 && 21 <= 4) || 39 === 7);
     console.log(myBooleanExpression);
 }
+
+//Question 6
+{
+    console.log('QUESTION 6:');
+
+    const isPositive = (num) => {
+        if (num > 0) {
+            let result = true;
+            console.log(result);
+        }
+        else {
+            let result = false;
+            console.log(result);
+        }
+    }
+    let num = Number(prompt('Enter a number'));
+    isPositive(num);
+}
