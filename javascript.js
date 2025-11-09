@@ -39,3 +39,11 @@
     console.log(String(convertNumbertoString));
     console.log(convertNumbertoString + '');
 }
+
+//Question 5
+{
+    console.log('QUESTION 5:');
+
+    let myBooleanExpression = !((67 >= 32 && 21 <= 4) || 39 === 7);
+    console.log(myBooleanExpression);
+}
