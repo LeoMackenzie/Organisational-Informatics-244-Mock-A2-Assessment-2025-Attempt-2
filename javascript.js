@@ -10,3 +10,14 @@
     console.log(`Boolean: ${myBoolean}`);
     console.log(`Number: ${myNumber}`);
 }
+
+//Question 2
+{
+    console.log('QUESTION 2:');
+
+    console.log(5 > 3); //true; 5 is greater than 3
+    console.log(5 < 3); //false; 5 is not less than 3
+    console.log(8 === 3); //false; 8 is not equal to 3
+    console.log(67 >= 12); //true; 67 is greater than or equal to 12
+    console.log(420 != 69); //true; 420 does not equal 69
+}
